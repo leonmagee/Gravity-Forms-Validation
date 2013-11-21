@@ -3,12 +3,10 @@
    ========================================================================== */
    
    // filter hook
-
     add_filter( 'gform_validation_4', 'new_custom_val' );
     
     
     // callback function
-    
     function new_custom_val( $val_result ) {
         
         // get form object
